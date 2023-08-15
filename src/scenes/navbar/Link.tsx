@@ -13,6 +13,7 @@ type Props = {
 }
 const Link = ({ page, selectedPage, setSelectedPage }: Props) => {
   const lowerCasePage = page.toLowerCase().replace(/ /g, "") as SelectedPage; //toLowerCase是转换为小写，.replace是删除标签字符间的空格
+
   return (
     <AnchorLink
       className={`${
