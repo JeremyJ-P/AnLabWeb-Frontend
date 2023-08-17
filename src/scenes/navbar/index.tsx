@@ -55,9 +55,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                 </div>
                 <div className={`${flexBetween} gap-8`}>
-                  <p>Sign In</p>
+                  <p>登录</p>
                   <ActionButton setSelectedPage={setSelectedPage}>
-                    Become a Member
+                    成为会员
                   </ActionButton>
                 </div>
               </div>

@@ -11,9 +11,10 @@ export enum SelectedPage {
     description: string;
   }
   
-//   export interface ClassType {
-//     name: string;
-//     description?: string;
-//     image: string;
-//   }
+  export interface ClassType {
+    name: string;
+    // 问号是可选的意思optional
+    description?: string;
+    image: string;
+  }
   
