@@ -28,7 +28,9 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
           {icon}
         </div>
       </div>
-      <h4 className="font-bold">{title}</h4>
+      {/* <h4 className="font-bold">{title}</h4> */}
+      <p className="my-3">{title}</p>
+
       <p className="my-3">{description}</p>
 
       <AnchorLink
@@ -36,7 +38,7 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
         onClick={() => setSelectedPage(SelectedPage.ContactUs)}
         href={`#${SelectedPage.ContactUs}`}
       >
-        <p>Learn More</p>
+        <p>更多信息</p>
       </AnchorLink>
     </motion.div>
   );
